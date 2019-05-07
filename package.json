@@ -1,0 +1,24 @@
+{
+  "name": "auth0_webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philberryman/autho_webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philberryman/autho_webhook/issues"
+  },
+  "homepage": "https://github.com/philberryman/autho_webhook#readme"
+}
