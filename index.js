@@ -15,7 +15,7 @@ app.route('/').get((request, response) => {
     // auth0 to validate this token
     // NOTE: Replace the URL with your own auth0 app url
     var options = {
-      url: `berryman.eu.auth0.com`,
+      url: `berryman.eu.auth0.com/userinfo`,
       headers: {
         Authorization: token,
         'Content-Type': 'application/json'
